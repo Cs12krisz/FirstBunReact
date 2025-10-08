@@ -1,7 +1,7 @@
 function Dealer({name, location, zip}) {
     return(
         <>
-        <p>A Dealer neve: {name}, helyszíne: {location}, zip: {zip}</p>
+        <p>A dealer neve: {name}, helyszíne: {location}, zip: {zip}</p>
         </>
     )
 }
