@@ -6,13 +6,15 @@ import Gomb2 from './Gomb2'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [count, setCount] = useState(0);
   return (
     <>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)} className='btn btn-primary'>
-          count is {count}
+        <button onClick={() => setCount((count) => count + 1)} className='btn btn-primary mb-3'>
+          A szám növelése: {count}
+        </button>
+        <button onClick={() => setCount((count) => count - 1)} className='btn btn-primary'>
+          A szám csökkentése: {count}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
